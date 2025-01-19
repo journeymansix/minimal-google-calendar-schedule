@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "Google calendar schedule"
+version = "0.1.0"
+description = "Google calendar schedule"
+authors = ["Steve Yost <steve.yost@gmail.com>"]
+license = {text = "MIT"}
+dependencies = [
+    "google-auth-oauthlib"
+]
+
+[tool.poetry]
+name = "Google calendar schedule"
+version = "0.1.0"
+description = "Google calendar schedule"
+authors = ["Steve Yost <steve.yost@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"  # Replace with your Python version
+google-auth-oauthlib = "*"  # Or the version you need
+google-api-python-client = "^2.0.0"  # Or the latest version available
+
+
+[tool.setuptools]
+# Additional setuptools configurations (if needed)
