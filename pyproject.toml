@@ -22,7 +22,8 @@ authors = ["Steve Yost <steve.yost@gmail.com>"]
 python = "^3.8"  # Replace with your Python version
 google-auth-oauthlib = "*"  # Or the version you need
 google-api-python-client = "^2.0.0"  # Or the latest version available
-
+reportlab = "*"
+requests = "^2.32.3"
 
 [tool.setuptools]
 # Additional setuptools configurations (if needed)
